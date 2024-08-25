@@ -62,6 +62,29 @@
                     app:layout_constraintTop_toBottomOf="@id/btn_start_yanghao"
                     android:layout_height="wrap_content" />
 
+                <Button
+                    android:id="@+id/btn_start_refresh"
+                    android:text="开始定时刷新聊天列表"
+                    android:layout_width="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/btn_start_reply"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/btn_stop_refresh"
+                    android:text="结束定时刷新聊天列表"
+                    android:layout_width="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/btn_start_refresh"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/btn_check_permission"
+                    android:text="检查权限"
+                    android:layout_width="wrap_content"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/btn_stop_refresh"
+                    android:layout_height="wrap_content" />
+
             </androidx.constraintlayout.widget.ConstraintLayout>
         </FrameLayout>
 
